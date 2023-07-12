@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== REMIXICON ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <title>Academia Master</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="/assets/img/logo-nav.png" alt="logo">ACADEMIA MASTER
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Início</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#program" class="nav__link">Programa</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#choose" class="nav__link">Escolha-nos</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#pricing" class="nav__link">Preços</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#time" class="nav__link">Horários</a>
+                    </li>
+
+                    <div class="nav__link">
+                        <a href="#footer" class="button nav__button">Registre-se Agora</a>
+                    </div>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+            <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section  class="home section" id="home">
+            <div class="carousel">
+                <div data-js="carousel__item" class="carousel__item carousel__item--visible">
+                    <div  class="home__container container grid">
+                        <div class="home__data">
+                            <h2 class="home__subtitle">FAÇA SUA</h2>
+                            <h1 class="home__title">FORMA CORPORAL</h1>
+                            <p class="home__description">
+                                Aqui vamos ajudá-lo a moldar e construir o seu corpo ideal
+                                para viver sua vida ao máximo.
+                            </p>
+                            <a href="#" class="button button__flex">
+                                Inicie Agora <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__images">
+                            <img src="./assets/img/home-img.png" alt="homeimage" class="home__img">
+                            <div class="home__triangle home__triangle-3"></div>
+                            <div class="home__triangle home__triangle-2"></div>
+                            <div class="home__triangle home__triangle-1"></div>
+                        </div>
+                   </div>
+                </div>
+
+                <div data-js="carousel__item" class="carousel__item">
+                    <div  class="home__container container grid">
+                        <div class="home__data2">
+                            <h2 class="home__subtitle">FIQUE FITNESS</h2>
+                            <h1 class="home__title">NA NOSSA ACADEMIA</h1>
+                            <p class="home__description">
+                                Ficar fitness é uma ótima meta. Só não se esqueça de que a palavra "fit" começa com "f" de "foco", "i" de "intensidade" e "t" de "determinação", aqui vamos te oferecer isso.
+                            </p>
+                            <a href="#" class="button button2 button__flex">
+                                Inicie Agora <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__images2">
+                            <img src="./assets/img/home-img2.png" alt="homeimage" class="home__img2">
+                            <div class="home__triangle home__triangle-3"></div>
+                            <div class="home__triangle home__triangle-2"></div>
+                            <div class="home__triangle home__triangle-1"></div>
+                        </div>
+                   </div>
+                </div>
+
+                <div data-js="carousel__item" class="carousel__item carousel__item3">
+                    <div  class="home__container container grid">
+                        <div class="home__data3">
+                            <h2 class="home__subtitle">MAIS SAÚDE</h2>
+                            <h1 class="home__title">NA VELHICE</h1>
+                            <p class="home__description">
+                                Mais saúde na velhice é sempre importante, afinal, precisamos garantir que as "experiências sênior" sejam vividas da melhor forma possível.
+                            </p>
+                            <a href="#" class="button button__flex">
+                                Inicie Agora <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__images3">
+                            <img src="./assets/img/home-img3.png" alt="homeimage" class="home__img3">
+                            <div class="home__triangle home__triangle-3"></div>
+                            <div class="home__triangle home__triangle-2"></div>
+                            <div class="home__triangle home__triangle-1"></div>
+                        </div>
+                   </div>
+                </div>
+            
+            
+                <div class="carousel__actions">
+                  <button data-js="carousel__button--prev" aria-label="Slide anterior">
+                    <
+                  </button>
+            
+                  <button data-js="carousel__button--next" aria-label="Próximo slide">
+                    >
+                  </button>
+                </div>
+              </div>
+
+              <a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=5573999999999&amp;text=Ol%C3%A1%2C%20em%20breve%20responderei%20sua%20mensagem!" target="_blank"><img src="./assets/img/whatsapp-logo.png" alt=""></a>
+              
+        </section>
+
+            <!--==================== LOGOS ====================-->
+            <section class="logos section">
+                <div class="logos__container container grid">
+                    <img src="/assets/img/logo1.png" alt="logo image" class="logos__img">
+                    <img src="/assets/img/logo2.png" alt="logo image" class="logos__img">
+                    <img src="/assets/img/logo3.png" alt="logo image" class="logos__img">
+                    <img src="/assets/img/logo4.png" alt="logo image" class="logos__img">
+                </div>
+            </section>
+
+            
+
+            <!--==================== PROGRAM ====================-->
+            <section class="program section" id="program">
+                <div class="container">
+                    <div class="section__data">
+                        <h2 class=" section__subtitle">Nosso Programa</h2>
+                        <div class="section__titles">
+                            <h1 class="section__title-border">CONSTRUA O SEU</h1>
+                            <h1 class="section__title">MELHOR CORPO</h1>
+                        </div>
+                    </div>
+                    <div class="program__container grid">
+
+                        <article class="program__card">
+                            <div class="program__shape">
+                                <img src="./assets/img/program1.png" alt="program image" class="program__img">
+                            </div>
+                            <h3 class="program__title">Músculos flexíveis</h3>
+                            <p class="program__description">
+                                Criando tensão que temporariamente torna as fibras musculares menores ou contraídas.
+                            </p>
+                            <a href="#" class="program__button"><i class="ri-arrow-right-line"></i></a>
+                        </article>
+
+                        <article class="program__card">
+                            <div class="program__shape">
+                                <img src="./assets/img/program2.png" alt="program image" class="program__img">
+                            </div>
+                            <h3 class="program__title">Exercício Cardio</h3>
+                            <p class="program__description">
+                                Exercite sua frequência cardíaca e a mantenha
+                                por um período prolongado de tempo.
+                            </p>
+                            <a href="#" class="program__button"><i class="ri-arrow-right-line"></i></a>
+                        </article>
+
+                        <article class="program__card">
+                            <div class="program__shape">
+                                <img src="./assets/img/program3.png" alt="program image" class="program__img">
+                            </div>
+                            <h3 class="program__title">Yoga Básica</h3>
+                            <p class="program__description">
+                                Diafragmática esta é a respiração mais comum,
+                                técnica que você encontrará no yoga.
+                            </p>
+                            <a href="#" class="program__button"><i class="ri-arrow-right-line"></i></a>
+                        </article>
+
+                        <article class="program__card">
+                            <div class="program__shape">
+                                <img src="./assets/img/program4.png" alt="program image" class="program__img">
+                            </div>
+                            <h3 class="program__title">Levantamento de Peso</h3>
+                            <p class="program__description">
+                                Tente um levantamento único de peso máximo de uma
+                                barra carregada com placas de peso.
+                            </p>
+                            <a href="#" class="program__button"><i class="ri-arrow-right-line"></i></a>
+                        </article>
+
+                    </div>
+                </div>
+        </section>
+
+        <!--==================== CHOOSE US ====================-->
+        <section class="choose section" id="choose">
+            <div class="choose__overflow">
+                <div class="choose__container container grid">
+                    <div class="choose__content">
+                        <div class="section__data">
+                            <h2 class="section__subtitle">Melhor Motivo</h2>
+                            <div class="section__titles">
+                                <h1 class="section__title-border">POR QUÊ</h1>
+                                <h1 class="section__title">NOS ESCOLHER?</h1>
+                            </div>
+                        </div>
+
+                        <p class="choose__description">
+                            Nossa academia é a escolha ideal para alcançar seus objetivos de condicionamento físico.
+                            Com instalações modernas, equipe qualificada, variedade de treinamentos e atmosfera acolhedora, oferecemos uma experiência completa.
+                        </p>
+
+                        <div class="choose__data">
+                            <div class="choose__group">
+                                <h3 class="choose__number">200+</h3>
+                                <p class="choose__subtitle">Total de Membros</p>
+                            </div>
+                            <div class="choose__group">
+                                <h3 class="choose__number">50+</h3>
+                                <p class="choose__subtitle">Melhrores Treinadores</p>
+                            </div>
+                            <div class="choose__group">
+                                <h3 class="choose__number">25+</h3>
+                                <p class="choose__subtitle">Programas</p>
+                            </div>
+                            <div class="choose__group">
+                                <h3 class="choose__number">100+</h3>
+                                <p class="choose__subtitle">Prêmios</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="choose__images">
+                        <img src="/assets/img/choose-img.png" alt="choose image" class="choose__img">
+                        <div class="choose__triangle choose__triangle-1"></div>
+                        <div class="choose__triangle choose__triangle-2"></div>
+                        <div class="choose__triangle choose__triangle-3"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PRICING ====================-->
+        <section class="pricing section" id="pricing">
+            <div class="container">
+                <div class="section__data">
+                    <h2 class="section__subtitle">Melhor Motivo</h2>
+                    <div class="section__titles">
+                        <h1 class="section__title-border">NOSSOS</h1>
+                        <h1 class="section__title">PLANOS ESPECIAIS</h1>
+                    </div>
+                </div>
+
+                <div class="pricing__container container grid">
+
+                    <article class="pricing__card">
+                        <header class="pricing__header">
+                            <div class="pricing__shape">
+                                <img src="/assets/img/pricing1.png" alt="pricing image" class="pricing__img">
+                            </div>
+                            <h1 class="pricing__title">PACOTE BÁSICO</h1>
+                            <h2 class="pricing__number">R$ 70,00</h2>
+                        </header>
+                        <ul class="pricing__list">
+                            <li class="pricing__item">
+                                <i class="ri-checkbox-circle-line"></i>5 dias em uma semana
+                            </li>
+                            <li class="pricing__item">
+                                <i class="ri-checkbox-circle-line"></i>01 Moletom
+                            </li>
+                            <li class="pricing__item pricing__item-opacity">
+                                <i class="ri-checkbox-circle-line"></i>01 Garrafa de Proteína
+                            </li>
+                            <li class="pricing__item pricing__item-opacity">
+                                <i class="ri-checkbox-circle-line"></i>Acesso a Vídeos
+                            </li>
+                            <li class="pricing__item pricing__item-opacity">
+                                <i class="ri-checkbox-circle-line"></i>Alongamento Muscular
+                            </li>
+                        </ul>
+                        <a href="#" class="button button__flex pricing__button">
+                            Compre Agora <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </article>
+
+                    <article class="pricing__card pricing__card-active">
+                        <header class="pricing__header">
+                            <div class="pricing__shape">
+                                <img src="/assets/img/pricing2.png" alt="pricing image" class="pricing__img">
+                            </div>
+                            <h1 class="pricing__title">PACOTE PREMIUM</h1>
+                            <h2 class="pricing__number">R$ 150,00</h2>
+                        </header>
+                        <ul class="pricing__list">
+                            <li class="pricing__item">
+                                <i class="ri-checkbox-circle-line"></i>5 dias em uma semana
+                            </li>
+                            <li class="pricing__item">
+                                <i class="ri-checkbox-circle-line"></i>01 Moletom
+                            </li>
+                            <li class="pricing__item">
+                                <i class="ri-checkbox-circle-line"></i>01 Garrafa de Proteína
+                            </li>
+                            <li class="pricing__item pricing__item-opacity">
+                                <i class="ri-checkbox-circle-line"></i>Acesso a Vídeos
+                            </li>
+                            <li class="pricing__item pricing__item-opacity">
+                                <i class="ri-checkbox-circle-line"></i>Alongamento Muscular
+                            </li>
+                        </ul>
+                        <a href="#" class="button button__flex pricing__button">
+                            Compre Agora <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </article>
+
+                    <article class="pricing__card">
+                        <header class="pricing__header">
+                            <div class="pricing__shape">
+                                <img src="/assets/img/pricing3.png" alt="pricing image" class="pricing__img">
+                            </div>
+                            <h1 class="pricing__title">PACOTE DIAMANTE</h1>
+                            <h2 class="pricing__number">R$ 250,00</h2>
+                        </header>
+                        <ul class="pricing__list">
+                            <li class="pricing__item">
+                                <i class="ri-checkbox-circle-line"></i>5 dias em uma semana
+                            </li>
+                            <li class="pricing__item">
+                                <i class="ri-checkbox-circle-line"></i>01 Moletom
+                            </li>
+                            <li class="pricing__item">
+                                <i class="ri-checkbox-circle-line"></i>01 Garrafa de Proteína
+                            </li>
+                            <li class="pricing__item">
+                                <i class="ri-checkbox-circle-line"></i>Acesso a Vídeos
+                            </li>
+                            <li class="pricing__item">
+                                <i class="ri-checkbox-circle-line"></i>Alongamento Muscular
+                            </li>
+                        </ul>
+                        <a href="#" class="button button__flex pricing__button">
+                            Compre Agora <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!--================== Class Timetable Start================== -->
+    <div class="time container-fluid p-5" id="time">
+        <div class="time section__data">
+            <h2 class="section__subtitle">Horário das Aulas</h2>
+            <div class="section__titles">
+                <h1 class="section__title-border">HORÁRIOS</h1>
+                <h1 class="section__title"> DE TRABALHO</h1>
+            </div>
+        </div>
+        <div class="time__card tab-class text-center">
+            <ul class="time-days nav nav-pills d-inline-flex justify-content-center bg-dark text-uppercase rounded-pill mb-5">
+                <li class="nav-item">
+                    <a class="nav-link rounded-pill text-white active" data-bs-toggle="pill" href="#tab-1">Segunda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link rounded-pill text-white" data-bs-toggle="pill" href="#tab-2">Terça</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link rounded-pill text-white" data-bs-toggle="pill" href="#tab-3">Quarta</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link rounded-pill text-white" data-bs-toggle="pill" href="#tab-4">Quinta</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link rounded-pill text-white" data-bs-toggle="pill" href="#tab-5">Sexta</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link rounded-pill text-white" data-bs-toggle="pill" href="#tab-6">Sabádo</a>
+                </li>
+
+            </ul>
+            <div class="tab-content">
+                <div id="tab-1" class="tab-pane fade show p-0 active">
+                    <div class="row g-5">
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">6:00 - 8:00</h6>
+                                <h5 class="text-uppercase text-primary">Levantamento de Peso</h5>
+                                <p class="text-uppercase text-secondary mb-0">John Deo</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">8:00 - 10:00</h6>
+                                <h5 class="text-uppercase text-primary">Construção corporal</h5>
+                                <p class="text-uppercase text-secondary mb-0">James Taylor</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">10:00 - 12:00</h6>
+                                <h5 class="text-uppercase text-primary">Programa de Cardio</h5>
+                                <p class="text-uppercase text-secondary mb-0">Jack Sparrow</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">12:00 - 14:00</h6>
+                                <h5 class="text-uppercase text-primary">Perca Peso</h5>
+                                <p class="text-uppercase text-secondary mb-0">Robert Smith</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">14:00 - 16:00</h6>
+                                <h5 class="text-uppercase text-primary">Programa de Fitness</h5>
+                                <p class="text-uppercase text-secondary mb-0">Adam Phillips</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">16:00 - 18:00</h6>
+                                <h5 class="text-uppercase text-primary">Aulas de Crossfit</h5>
+                                <p class="text-uppercase text-secondary mb-0">James Alien</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">18:00 - 20:00</h6>
+                                <h5 class="text-uppercase text-primary">Construção muscular</h5>
+                                <p class="text-uppercase text-secondary mb-0">Petter John</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">20:00 - 22:00</h6>
+                                <h5 class="text-uppercase text-primary">Aulas de Yoga</h5>
+                                <p class="text-uppercase text-secondary mb-0">Jessy Reo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab-2" class="tab-pane fade p-0">
+                    <div class="row g-5">
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">6:00 - 8:00</h6>
+                                <h5 class="text-uppercase text-primary">Levantamento de Peso</h5>
+                                <p class="text-uppercase text-secondary mb-0">John Deo</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">8:00 - 10:00</h6>
+                                <h5 class="text-uppercase text-primary">Construção corporal</h5>
+                                <p class="text-uppercase text-secondary mb-0">James Taylor</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">10:00 - 12:00</h6>
+                                <h5 class="text-uppercase text-primary">Programa de Cardio</h5>
+                                <p class="text-uppercase text-secondary mb-0">Jack Sparrow</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">12:00 - 14:00</h6>
+                                <h5 class="text-uppercase text-primary">Perca Peso</h5>
+                                <p class="text-uppercase text-secondary mb-0">Robert Smith</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">14:00 - 16:00</h6>
+                                <h5 class="text-uppercase text-primary">Programa de Fitness</h5>
+                                <p class="text-uppercase text-secondary mb-0">Adam Phillips</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">16:00 - 18:00</h6>
+                                <h5 class="text-uppercase text-primary">Aulas de Crossfit</h5>
+                                <p class="text-uppercase text-secondary mb-0">James Alien</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">18:00 - 20:00</h6>
+                                <h5 class="text-uppercase text-primary">Construção muscular</h5>
+                                <p class="text-uppercase text-secondary mb-0">Petter John</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">20:00 - 22:00</h6>
+                                <h5 class="text-uppercase text-primary">Aulas de Yoga</h5>
+                                <p class="text-uppercase text-secondary mb-0">Jessy Reo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab-3" class="tab-pane fade p-0">
+                    <div class="row g-5">
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">6:00 - 8:00</h6>
+                                <h5 class="text-uppercase text-primary">Levantamento de Peso</h5>
+                                <p class="text-uppercase text-secondary mb-0">John Deo</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">8:00 - 10:00</h6>
+                                <h5 class="text-uppercase text-primary">Construção corporal</h5>
+                                <p class="text-uppercase text-secondary mb-0">James Taylor</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">10:00 - 12:00</h6>
+                                <h5 class="text-uppercase text-primary">Programa de Cardio</h5>
+                                <p class="text-uppercase text-secondary mb-0">Jack Sparrow</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">12:00 - 14:00</h6>
+                                <h5 class="text-uppercase text-primary">Perca Peso</h5>
+                                <p class="text-uppercase text-secondary mb-0">Robert Smith</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">14:00 - 16:00</h6>
+                                <h5 class="text-uppercase text-primary">Programa de Fitness</h5>
+                                <p class="text-uppercase text-secondary mb-0">Adam Phillips</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">16:00 - 18:00</h6>
+                                <h5 class="text-uppercase text-primary">Aulas de Crossfit</h5>
+                                <p class="text-uppercase text-secondary mb-0">James Alien</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">18:00 - 20:00</h6>
+                                <h5 class="text-uppercase text-primary">Construção muscular</h5>
+                                <p class="text-uppercase text-secondary mb-0">Petter John</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">20:00 - 22:00</h6>
+                                <h5 class="text-uppercase text-primary">Aulas de Yoga</h5>
+                                <p class="text-uppercase text-secondary mb-0">Jessy Reo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab-4" class="tab-pane fade p-0">
+                    <div class="row g-5">
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">6:00 - 8:00</h6>
+                                <h5 class="text-uppercase text-primary">Levantamento de Peso</h5>
+                                <p class="text-uppercase text-secondary mb-0">John Deo</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">8:00 - 10:00</h6>
+                                <h5 class="text-uppercase text-primary">Construção corporal</h5>
+                                <p class="text-uppercase text-secondary mb-0">James Taylor</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">10:00 - 12:00</h6>
+                                <h5 class="text-uppercase text-primary">Programa de Cardio</h5>
+                                <p class="text-uppercase text-secondary mb-0">Jack Sparrow</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">12:00 - 14:00</h6>
+                                <h5 class="text-uppercase text-primary">Perca Peso</h5>
+                                <p class="text-uppercase text-secondary mb-0">Robert Smith</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">14:00 - 16:00</h6>
+                                <h5 class="text-uppercase text-primary">Programa de Fitness</h5>
+                                <p class="text-uppercase text-secondary mb-0">Adam Phillips</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">16:00 - 18:00</h6>
+                                <h5 class="text-uppercase text-primary">Aulas de Crossfit</h5>
+                                <p class="text-uppercase text-secondary mb-0">James Alien</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">18:00 - 20:00</h6>
+                                <h5 class="text-uppercase text-primary">Construção muscular</h5>
+                                <p class="text-uppercase text-secondary mb-0">Petter John</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">20:00 - 22:00</h6>
+                                <h5 class="text-uppercase text-primary">Aulas de Yoga</h5>
+                                <p class="text-uppercase text-secondary mb-0">Jessy Reo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab-5" class="tab-pane fade p-0">
+                    <div class="row g-5">
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">6:00 - 8:00</h6>
+                                <h5 class="text-uppercase text-primary">Levantamento de Peso</h5>
+                                <p class="text-uppercase text-secondary mb-0">John Deo</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">8:00 - 10:00</h6>
+                                <h5 class="text-uppercase text-primary">Construção corporal</h5>
+                                <p class="text-uppercase text-secondary mb-0">James Taylor</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">10:00 - 12:00</h6>
+                                <h5 class="text-uppercase text-primary">Programa de Cardio</h5>
+                                <p class="text-uppercase text-secondary mb-0">Jack Sparrow</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">12:00 - 14:00</h6>
+                                <h5 class="text-uppercase text-primary">Perca Peso</h5>
+                                <p class="text-uppercase text-secondary mb-0">Robert Smith</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">14:00 - 16:00</h6>
+                                <h5 class="text-uppercase text-primary">Programa de Fitness</h5>
+                                <p class="text-uppercase text-secondary mb-0">Adam Phillips</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">16:00 - 18:00</h6>
+                                <h5 class="text-uppercase text-primary">Aulas de Crossfit</h5>
+                                <p class="text-uppercase text-secondary mb-0">James Alien</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">18:00 - 20:00</h6>
+                                <h5 class="text-uppercase text-primary">Construção muscular</h5>
+                                <p class="text-uppercase text-secondary mb-0">Petter John</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">20:00 - 22:00</h6>
+                                <h5 class="text-uppercase text-primary">Aulas de Yoga</h5>
+                                <p class="text-uppercase text-secondary mb-0">Jessy Reo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab-6" class="tab-pane fade p-0">
+                    <div class="row g-5">
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">6:00 - 8:00</h6>
+                                <h5 class="text-uppercase text-primary">Levantamento de Peso</h5>
+                                <p class="text-uppercase text-secondary mb-0">John Deo</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">8:00 - 10:00</h6>
+                                <h5 class="text-uppercase text-primary">Construção corporal</h5>
+                                <p class="text-uppercase text-secondary mb-0">James Taylor</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">10:00 - 12:00</h6>
+                                <h5 class="text-uppercase text-primary">Programa de Cardio</h5>
+                                <p class="text-uppercase text-secondary mb-0">Jack Sparrow</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">12:00 - 14:00</h6>
+                                <h5 class="text-uppercase text-primary">Perca Peso</h5>
+                                <p class="text-uppercase text-secondary mb-0">Robert Smith</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">14:00 - 16:00</h6>
+                                <h5 class="text-uppercase text-primary">Programa de Fitness</h5>
+                                <p class="text-uppercase text-secondary mb-0">Adam Phillips</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">16:00 - 18:00</h6>
+                                <h5 class="text-uppercase text-primary">Aulas de Crossfit</h5>
+                                <p class="text-uppercase text-secondary mb-0">James Alien</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">18:00 - 20:00</h6>
+                                <h5 class="text-uppercase text-primary">Construção muscular</h5>
+                                <p class="text-uppercase text-secondary mb-0">Petter John</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">20:00 - 22:00</h6>
+                                <h5 class="text-uppercase text-primary">Aulas de Yoga</h5>
+                                <p class="text-uppercase text-secondary mb-0">Jessy Reo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab-7" class="tab-pane fade p-0">
+                    <div class="row g-5">
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">6:00 - 8:00</h6>
+                                <h5 class="text-uppercase text-primary">Levantamento de Peso</h5>
+                                <p class="text-uppercase text-secondary mb-0">John Deo</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">8:00 - 10:00</h6>
+                                <h5 class="text-uppercase text-primary">Construção corporal</h5>
+                                <p class="text-uppercase text-secondary mb-0">James Taylor</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">10:00 - 12:00</h6>
+                                <h5 class="text-uppercase text-primary">Programa de Cardio</h5>
+                                <p class="text-uppercase text-secondary mb-0">Jack Sparrow</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">12:00 - 14:00</h6>
+                                <h5 class="text-uppercase text-primary">Perca Peso</h5>
+                                <p class="text-uppercase text-secondary mb-0">Robert Smith</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">14:00 - 16:00</h6>
+                                <h5 class="text-uppercase text-primary">Programa de Fitness</h5>
+                                <p class="text-uppercase text-secondary mb-0">Adam Phillips</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">16:00 - 18:00</h6>
+                                <h5 class="text-uppercase text-primary">Aulas de Crossfit</h5>
+                                <p class="text-uppercase text-secondary mb-0">James Alien</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">18:00 - 20:00</h6>
+                                <h5 class="text-uppercase text-primary">Construção muscular</h5>
+                                <p class="text-uppercase text-secondary mb-0">Petter John</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="bg-dark rounded text-center py-5 px-3">
+                                <h6 class="text-uppercase text-light mb-3">20:00 - 22:00</h6>
+                                <h5 class="text-uppercase text-primary">Aulas de Yoga</h5>
+                                <p class="text-uppercase text-secondary mb-0">Jessy Reo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--=================Class Timetable Start================-->
+
+        <!--==================== CALCULATE ====================-->
+        <section class="calculate section">
+            <div class="calculate__container container grid">
+                <div class="calculate__content">
+                    <div class="section__titles">
+                        <h1 class="section__title-border">CALCULE</h1>
+                        <h1 class="section__title">SEU IMC</h1>
+                    </div>
+                    <p class="calculate__description">
+                        A calculadora de índice de massa corporal (IMC) calcula
+                        índice de massa corporal de seu peso e altura.
+                    </p>
+                    <form action="" class="calculate__form" id="calculate-form">
+                        <div class="calculate__box">
+                            <input type="number" placeholder="Altura" class="calculate__input" id="calculate-cm">
+                            <label for="" class="calculate__label">cm</label>
+                        </div>
+                        <div class="calculate__box">
+                            <input type="number" placeholder="Peso" class="calculate__input" id="calculate-kg">
+                            <label for="" class="calculate__label">kg</label>
+                        </div>
+                        <button type="submit" class="button button__flex">
+                            Calcule Agora <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </form>
+                    <p class="calculate__message" id="calculate-message"></p>
+                </div>
+                <img src="/assets/img/calculate-img.png" alt="calculate image" class="calculate__img">
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section" id="footer">
+        <div class="footer__container container grid">
+            <div>
+                <a href="#" class="footer__logo">
+                    <img src="/assets/img/logo-nav.png" alt="footer logo"> ACADEMIA MASTER
+                </a>
+                <p class="footer__description">
+                    Inscreva-se para receber atualizações <br> da academia.
+                </p>
+                <form action="" class="footer__form" id="contact-form">
+                    <input type="email" name="user-email" placeholder="Seu E-mail" class="footer__input"
+                        id="contact-user">
+                    <button type="submit" class="button">
+                        Inscreva-se
+                    </button>
+                </form>
+                <p class="footer__message" id="contact-message"></p>
+            </div>
+            <div class="footer__content">
+
+                <div>
+                    <h3 class="footer__title">CONTATO</h3>
+                    <ul class="footer__links">
+                        <li>
+                            <i class="fa-solid fa-mobile-screen"></i>
+                            <a href="#" class="footer__link">Tel: 7399999-9999</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope-circle-check"></i>
+                            <a href="#" class="footer__link">E-mail: academi@academia.com</a>
+                        </li>
+                        <li>
+                            <i class="fa-sharp fa-solid fa-location-dot"></i>
+                            <a href="#" class="footer__link">Como chegar?</a>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <a href="#" class="footer__link">Whatsapp</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">SERVIÇOS</h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Músculo Flexíveis</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Exercício Cardio</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Yoga Básica</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Levantamento de Peso</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">PREÇOS</h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Básico</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Premium</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Diamante</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">EMPRESA</h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Sobre Nós</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Carreias</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Clientes</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Parceiros</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="footer__group">
+                <ul class="footer__social">
+                    <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-facebook-circle-fill"></i>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-twitter-fill"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                </ul>
+                <span class="footer__copy">&#169; Copyright Patrique Porto. Todos os Direitos Reservados</span>
+            </div>
+        </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <!-- <script src="/assets/js/scrollreveal.min.js"></script> -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--=============== EMAIL JS ===============-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
