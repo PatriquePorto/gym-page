@@ -10,7 +10,8 @@
 <ul dir="auto">
 <li><a href="#">HTML5</a></li>
 <li><a href="#">CSS3</a></li>
-<li><a href="">Javascript</a></li>
+<li><a href="#">Bootstrap</a></li>
+<li><a href="#">Javascript</a></li>
 
 </ul>
 
@@ -18,7 +19,7 @@
 
 <p dir="auto">This is a gym web page</p>
 
-- Responsive Gym Website Design Using HTML5 CSS3 & JavaScript
+- Responsive Gym Website Design Using HTML5, CSS3, Boostrap & JavaScript
 - Contains animations when scrolling and carousel slide
 - Includes a form to calculate body mass index.
 - Includes a form to send emails.
