@@ -19,10 +19,10 @@
 
 <p dir="auto">This is a gym web page</p>
 
-- Responsive Gym Website Design Using HTML5, CSS3, Boostrap & JavaScript
-- Contains animations when scrolling and carousel slide
+- Responsive Gym Website Design Using HTML5, CSS3, Boostrap & JavaScript.
+- Contains animations when scrolling and carousel slide.
 - Includes a form to calculate body mass index.
-- Includes a form to send emails.
+- Includes a form to send emails, whatsapp button.
 - Developed first with the Mobile First methodology, then for desktop.
 - Compatible with all mobile devices and with a beautiful and pleasant user interface.
 

@@ -981,13 +981,13 @@ img {
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 
-@media screen and (min-width:359px) and (max-width: 394px) {
+@media screen and (min-width:280px) and (max-width: 415px) {
   .carousel__item .home__data2 {
     margin-left: -6%;
   }
 }
 
-@media screen and (max-width:415px) {
+@media screen and (min-width:280px) and (max-width:415px)  {
 
   .nav__logo {
     margin-left: 3%;
@@ -1108,7 +1108,7 @@ img {
     width: 900px;
     height: 520px;
     top: -142px;
-    left: -393px;
+    left: -375px;
   }
 
   .home__container .home__images3 img {
