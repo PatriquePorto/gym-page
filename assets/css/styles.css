@@ -457,6 +457,7 @@ img {
   font-weight: var(--font-bold);
   cursor: pointer;
   transition: background .3s;
+  border-radius: 14px;
 }
 
 .button:hover {
@@ -1006,13 +1007,14 @@ img {
   }
 
   .home__data {
-    top: -120px;
+    margin-top: -48px;
     left: .3rem;
   }
 
   .home .home__container .home__data .button1 {
     position: relative;
-   top: 70px;
+   top: 30px;
+   left: -4px;
    height: 50px;
   } 
 
@@ -1020,11 +1022,12 @@ img {
 
   .home__images {
     position: relative;
-   top: 25px;
+   margin-top: 40px;
     left: 12px;
   }
 
   .home__images img {
+    margin-top: 30px;
     margin-left: -40px;
   }
 
@@ -1071,13 +1074,14 @@ img {
 
 
   .home__data3 {
+    margin-top: -30px;
     width: 100%;
     left: 35px;
   }
 
   .home__container .home__data3 .button3 {
-    margin-top: -20px;
-    margin-left: 80px;
+   margin-top: 18px;
+    margin-left: 85px;
   } 
 
   .home__data3 h1 {
