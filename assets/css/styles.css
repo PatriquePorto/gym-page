@@ -981,9 +981,17 @@ img {
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 
-@media screen and (min-width:280px) and (max-width: 415px) {
+@media screen and (max-width: 415px) {
   .carousel__item .home__data2 {
     margin-left: -6%;
+  }
+
+ .carousel__item .home__images3 {
+  left: -353px;
+ }
+
+  .carousel__item .home__data3 {
+    margin-left: 30px;
   }
 }
 
