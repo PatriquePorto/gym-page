@@ -122,7 +122,7 @@ prevButton.addEventListener('click', () =>{
   slides[currentSlideIndex].classList.add('carousel__item--visible')
 })
 
-/*=============== CAROUSEL AUTOPLAY SLIDE ===============*/
+/*=============== CAROUSEL AUTOPLAY SLIDE ===============
 const repeat = function(activeClass){
     let carousel__item = document.getElementsByClassName('carousel__item--visible')
     let i = 1;
@@ -148,7 +148,7 @@ const repeat = function(activeClass){
     }
     repeater()
   }
-  repeat() 
+  repeat()*/
 
 
 /*=============== CALCULATE JS ===============*/
