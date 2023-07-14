@@ -995,21 +995,25 @@ height: 597px;
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 
-@media screen and (max-width: 415px) {
-  .carousel__item .home__data2 {
-    margin-left: -6%;
+@media screen and (max-width: 416px) {
+  
+  .container2 .home__data2 {
+    left: -3px;
   }
 
- .carousel__item .home__images3 {
-  left: -353px;
- }
-
-  .carousel__item .home__data3 {
-    margin-left: 30px;
+  
+  .container2 .home__images2 {
+    margin-left: 173px;
   }
+
+  .container3 .home__images3 {
+    position: relative;
+    margin-top: 120px;
+  }
+
 }
 
-@media screen and (min-width:280px) and (max-width:415px)  {
+@media screen and (min-width:280px) and (max-width:414px)  {
 
   .nav__logo {
     margin-left: 3%;
@@ -1052,9 +1056,83 @@ height: 597px;
     margin-left: -40px;
   }
 
+  .container2 {
+    width: 100%;
+    padding: 0;
+}
+
+.home__data2 {
+  position: relative;
+  width: 84%;
+  left: 3.4%;
+  top: -1%;
+    text-align: center;   
+}
+
+.home__data2 p {
+  font-size: 100%;
+}
+
+.container2 .home__images2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    left: -21%;
+    margin-top: 38.8px;
+}
+
+ .container2 .home__images2 img {
+   width: 300px;
+   height: 350px;
+   left: 10%;
+}
+
+.container2 .home__data2 .button2 {
+  position: relative;
+  height: 50px;
+  top: 35px;
+}
+
+.container3 {
+  width: 100%;
+  padding: 0;
+}
+
+.home__data3 {
+position: relative;
+width: 84%;
+left: 3.4%;
+top: -1%;
+  text-align: center;   
+}
+
+.home__data3 p {
+font-size: 100%;
+}
+
+.container3 .home__images3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  left: 43%;
+  margin-top: 19px;
+}
+
+.container3 .home__images3 img {
+ width: 300px;
+ height: 350px;
+ left: -6%;
+}
+
+.container3 .home__data3 .button3 {
+position: relative;
+height: 50px;
+top: 15px;
+left: -15px;
+}
 
   .carousel .carousel__actions {
-    top: 330px;
+    top: 382px;
   }
 
   .home__triangle,
@@ -1321,7 +1399,7 @@ height: 597px;
   }
 
   .home__data {
-    padding-top: 3rem;
+    padding-top: 2rem;
   }
 
   .home__images {
