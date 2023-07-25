@@ -455,7 +455,9 @@ height: 597px;
 }
 
 .home__images3 img {
+  transform: scale(1.6, 1); /*stretch the image */
   display: block;
+  left: 10%;
   position: relative;
   z-index: 3;
   margin: 0 auto;
