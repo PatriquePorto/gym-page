@@ -48,7 +48,7 @@ const scrollActive = () => {
 
     sections.forEach(current => {
         const sectionHeight = current.offsetHeight,
-            sectionTop = current.offsetTop - 58,
+            sectionTop = current.offsetTop - 65,
             sectionId = current.getAttribute("id")
 
         if (scrollY >= sectionTop && scrollY <= sectionTop + sectionHeight) {
@@ -85,7 +85,7 @@ const sr = ScrollReveal({
 
 sr.reveal(`.home__data , .footer__container , .footer__group`)
 sr.reveal(`.home__img`,{delay:700,origin:'botton'})
-sr.reveal(`.logos__img , .program__card , .pricing__card, .time__card `,{interval:100})
+sr.reveal(`.logos__img , .program__card , .pricing__card, .time__card, .gallery__card `,{interval:100})
 sr.reveal(`.choose__img , .calculate__content`,{origin:'left'})
 sr.reveal(`.choose__content,.calculate__img`,{origin:'right'})
 
@@ -148,8 +148,7 @@ const repeat = function(activeClass){
     }
     repeater()
   }
-  repeat()
-
+  repeat() 
 
 /*=============== CALCULATE JS ===============*/
 const calculateForm = document.getElementById("calculate-form"),

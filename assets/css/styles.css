@@ -434,6 +434,7 @@ img {
   margin: 0 auto;
 }
 
+
 .carousel .home__images2 img {
 width: 600px;
 height: 597px;
@@ -448,7 +449,9 @@ height: 597px;
 .home__images3 {
   transform: translateX(-9rem);
   position: relative;
-  left: 264px;
+  left: -42px;
+  width: 850px;
+  transform: scale(1);
 }
 
 .home__images3 img {
@@ -764,6 +767,55 @@ height: 597px;
 .pricing__card-active .pricing__number,
 .pricing__card-active .pricing__item {
   color: var(--title-color-black);
+}
+
+/* Gallery Section */
+/* ================================================== */
+.gallery-outer {
+	padding: 70px 0 65px;
+}
+.gallery-outer .container {
+	position: relative;
+}
+.gallery-outer .tabs {
+	margin-top: -50px;
+	float: right;
+	position: absolute;
+	right: 0
+}
+.gallery-outer .tabs span:before {
+	display: none
+}
+.gallery-box {
+	margin: 15px 0;
+	position: relative;
+	overflow: hidden;
+}
+.gallery-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	padding: 10px;
+	text-align: center;
+	-moz-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+}
+.gallery-box:hover .gallery-overlay {
+	opacity: 1;
+}
+.gallery-overlay i {
+	color: #fff;
+	font-size: 40px;
+	position: relative;
+	margin-top: -20px;
+	top: 50%;
 }
 
 /*=============== CALCULATE ===============*/
