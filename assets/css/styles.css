@@ -1094,7 +1094,7 @@ height: 597px;
 
   .home .home__container .home__data .button1 {
     position: relative;
-   top: 30px;
+   top: 3.2rem;
    left: -4px;
    height: 50px;
   } 
@@ -1127,18 +1127,25 @@ height: 597px;
   font-size: 100%;
 }
 
+
 .container2 .home__images2 {
     width: 100%;
     display: flex;
     justify-content: center;
     left: -21%;
-    margin-top: 38.8px;
+    margin-top: 2.52rem;
+  
 }
 
  .container2 .home__images2 img {
    width: 300px;
    height: 350px;
    left: 10%;
+   
+}
+
+.container2 .home__data2 a {
+  top: -2rem;
 }
 
 .container2 .home__data2 .button2 {
@@ -1168,8 +1175,8 @@ font-size: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
-  left: 43%;
-  margin-top: 19px;
+  left: 4%;
+  margin-top: 2.5rem;
 }
 
 .container3 .home__images3 img {
@@ -1181,8 +1188,8 @@ font-size: 100%;
 .container3 .home__data3 .button3 {
 position: relative;
 height: 50px;
-top: 15px;
-left: -15px;
+top: 2.2rem;
+left: 1.1rem;
 }
 
   .carousel .carousel__actions {
@@ -1225,6 +1232,250 @@ left: -15px;
   }
 
 }
+
+@media screen and (min-width:280px) and (max-width:321px) {
+
+  .home__images {
+    position: relative;
+   margin-top: 40px;
+    left: 12px;
+  }
+
+  .home__images img {
+    margin-top: 30px;
+    margin-left: -3rem;
+  }
+
+ .home .container1 .home__data .button1 {
+    width: 60%;
+    height: 3%;
+    top: -1.8rem;
+    font-size: .6rem;
+  } 
+
+
+
+  .home .container2 .home__data2 .button2 {
+    width: 45%;
+    height: 3%;
+  top: 1rem;
+    left: -2.9rem;
+    font-size: .6rem;
+  } 
+
+
+  .container2 .home__images2 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    left: -43%;
+    margin-top: 5.21rem;
+}
+
+ .container2 .home__images2 img {
+   width: 250px;
+   height: 250px;
+   left: 25%;
+}
+
+
+.container2 .home__data2 h2{
+  width: 75%;
+}
+
+.container2 .home__data2 h1{
+  font-size: 1.3rem;
+  margin-left: -5.5rem;
+}
+
+.container2 .home__data2 p{
+  width: 75%;
+  
+}
+
+.container3 .home__data3 {
+  margin-top: -1.6rem;
+  left: 1.2rem;
+}
+
+.container3 .home__data3 .button3 {
+  width: 70%;
+  height: 3%;
+  left: .2rem;
+  top: 1.5rem;
+  font-size: .6rem;
+}
+
+.container3 .home__images3 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  left: 5%;
+  margin-top: 5.78rem;
+}
+
+.container3 .home__images3 img {
+ width: 250px;
+ height: 250px;
+ left: 0%;
+ }
+}
+
+@media screen and (width:360px) {
+
+  .home .container1 {
+    margin-top: 1.8rem;
+  }
+
+  .home__images {
+    position: relative;
+   margin-top: 40px;
+    left: 12px;
+  }
+
+  .home__images img {
+    margin-top: 30px;
+    margin-left: -0.5rem;
+  }
+
+
+  .container2 .button2 {
+  left: -1.8rem;
+  margin-top: 0.9rem;
+  }
+
+  .container2 .home__images2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    left: -32%;
+    margin-top: 2.59rem;
+}
+
+ .container2 .home__images2 img {
+   width: 300px;
+   height: 300px;
+   left: 15%;
+}
+
+
+.container2 .home__data2 h2{
+  width: 90%;
+}
+
+.container2 .home__data2 h1{
+  font-size: 1.8rem;
+  margin-left: -3rem;
+}
+
+.container2 .home__data2 p{
+  width: 87%;
+  font-size: 0.8rem;
+}
+
+.container3 .home__data3 {
+  margin-top: -1.6rem;
+  margin-left: 1rem;
+}
+
+.container3 .home__data3 .button3 {
+  left: -0.1rem;
+  top: 2.5rem;
+}
+
+.container3 .home__images3 {
+  left: 0.9rem;
+  margin-top: 2.95rem;
+ }
+
+ .container3 .home__images3 img {
+  width: 300px;
+  height: 300px;
+  }
+
+}
+ 
+
+@media screen and (width:375px) {
+ .home .carousel .carousel__actions {
+    top: 25.1rem;
+  }
+
+  .container1 .home__images {
+   left: 3rem;
+  }
+
+  .container1 .home__data .button1 {
+    margin-bottom: -5rem;
+  }
+
+  .container2 .home__images2 {
+   left: -8.6rem;
+   margin-top: -.4rem;
+  }
+
+  .container2 .home__data2 h2{
+    width: 95%;
+  }
+  
+  .container2 .home__data2 h1{
+   font-size: 1.89rem;
+    margin-left: -2rem;
+  }
+  
+  .container2 .home__data2 p{
+    width: 91%;
+  }
+
+ .container2 .home__data2 .button2 {
+    
+     left: -1.2rem;
+  } 
+
+  .container3 .home__images3 {
+       left: .8rem;
+       margin-top: -.56rem;
+      }
+
+      .container3 .home__data3 .button3 {
+        left: 1rem;
+      }   
+  
+}
+
+@media screen and (min-width:390px) and (max-width:394px) {
+  .container1 .home__images {
+    left: 2.7rem;
+  }
+
+  .home .carousel .carousel__actions {
+    top: 25.3rem;
+  }
+
+  .container2 .home__data2 h1 {
+    width: 95.5%;
+  }
+
+  .container2 .home__data2 p {
+    width: 95%;
+  }
+
+  .container2 .home__images2 {
+    margin-top: 1.2rem;
+  }
+
+  .container2 .home__data2 .button2 {
+   top: 2.3rem;
+   left: -.6rem;
+ } 
+
+ .container3 .home__images3 {
+  margin-top: 1.18rem;
+ }
+}
+
 
 
 /* For medium devices */

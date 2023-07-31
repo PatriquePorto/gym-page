@@ -233,7 +233,7 @@ const sendEmail = (e) => {
             .then(() => {
                 // Show message and add color
                 contactMessage.classList.add("color-green")
-                contactMessage.textContent = 'You registered successfully'
+                contactMessage.textContent = 'Você foi registrado com sucesso!'
 
                 // Remove message after three seconds
                 setTimeout(() => {
@@ -242,7 +242,7 @@ const sendEmail = (e) => {
 
             }, (error) => {
                 // Mail sending error
-                alert('OOPS! SOMETHING HAS FAILED...', error)
+                alert('OOPS! ALGO DEU ERRRADO...', error)
             }
             )
 
